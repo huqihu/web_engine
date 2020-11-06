@@ -795,3 +795,129 @@
 2020-11-06 19:44:04,863 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
 2020-11-06 19:44:04,863 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
 2020-11-06 19:44:04,863 test [DEBUG] [../../include/MyTask.h:onClose:180] lost connection fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38136 
+2020-11-06 22:24:52,569 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 4
+2020-11-06 22:24:52,569 test [DEBUG] [../../include/tcpServer_v4.h:handleNewConnection:592] new fd= 8
+2020-11-06 22:24:52,569 test [DEBUG] [../../include/MyTask.h:onConnection:142] new connection fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38486 
+2020-11-06 22:24:54,261 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:24:54,261 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:24:54,261 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:24:54,261 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **task** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38486 
+2020-11-06 22:24:54,261 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 4
+2020-11-06 22:24:54,287 test [DEBUG] [../../include/MyTask.h:process:69] get result of task from index
+2020-11-06 22:24:54,287 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:24:54,287 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:25:33,481 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 4
+2020-11-06 22:25:33,481 test [DEBUG] [../../include/tcpServer_v4.h:handleNewConnection:592] new fd= 8
+2020-11-06 22:25:33,481 test [DEBUG] [../../include/MyTask.h:onConnection:142] new connection fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **task** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 4
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/MyTask.h:process:37] get result of task from cache
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:25:36,198 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:25,847 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:25,848 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:25,848 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:25,890 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **god** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:25,890 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 3
+2020-11-06 22:26:25,906 test [DEBUG] [../../include/MyTask.h:process:69] get result of god from index
+2020-11-06 22:26:25,906 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:25,907 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,433 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,434 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,434 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,474 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **ek** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,474 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 2
+2020-11-06 22:26:26,488 test [DEBUG] [../../include/MyTask.h:process:69] get result of ek from index
+2020-11-06 22:26:26,488 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:26,489 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,491 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,491 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,491 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,534 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **seek** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,534 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 1
+2020-11-06 22:26:26,535 test [DEBUG] [../../include/MyTask.h:process:37] get result of seek from cache
+2020-11-06 22:26:26,535 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:26,535 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,535 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,535 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,535 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,578 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **seek** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,578 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 5
+2020-11-06 22:26:26,578 test [DEBUG] [../../include/MyTask.h:process:37] get result of seek from cache
+2020-11-06 22:26:26,578 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:26,579 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,579 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,579 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,579 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,622 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **seek** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,622 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 6
+2020-11-06 22:26:26,622 test [DEBUG] [../../include/MyTask.h:process:37] get result of seek from cache
+2020-11-06 22:26:26,622 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:26,622 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,623 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,623 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,623 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,666 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **seek** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,666 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 7
+2020-11-06 22:26:26,666 test [DEBUG] [../../include/MyTask.h:process:37] get result of seek from cache
+2020-11-06 22:26:26,666 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:26,666 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,667 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,667 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,667 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,710 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 8
+2020-11-06 22:26:26,713 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **seek|0|244** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,744 test [DEBUG] [../../include/MyTask.h:process:69] get result of seek|0|244 from index
+2020-11-06 22:26:26,744 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:26,745 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,745 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,745 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,746 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,786 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **see|1|596** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,786 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 9
+2020-11-06 22:26:26,818 test [DEBUG] [../../include/MyTask.h:process:69] get result of see|1|596 from index
+2020-11-06 22:26:26,819 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:26:26,819 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:26:26,819 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:26:26,820 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:26:26,820 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:26:26,862 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **seed|1|280** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38488 
+2020-11-06 22:26:26,862 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 10
+2020-11-06 22:28:22,551 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 4
+2020-11-06 22:28:22,552 test [DEBUG] [../../include/tcpServer_v4.h:handleNewConnection:592] new fd= 8
+2020-11-06 22:28:22,552 test [DEBUG] [../../include/MyTask.h:onConnection:142] new connection fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38496 
+2020-11-06 22:28:26,198 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:28:26,198 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:28:26,198 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:28:26,198 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **task** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38496 
+2020-11-06 22:28:26,198 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 4
+2020-11-06 22:28:26,226 test [DEBUG] [../../include/MyTask.h:process:69] get result of task from index
+2020-11-06 22:28:26,226 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:28:26,227 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:28:33,924 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:28:33,924 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:28:33,924 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:28:33,966 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **task** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38496 
+2020-11-06 22:28:33,966 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 3
+2020-11-06 22:28:33,966 test [DEBUG] [../../include/MyTask.h:process:37] get result of task from cache
+2020-11-06 22:28:33,966 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:28:33,966 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:28:53,559 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:28:53,559 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:28:53,559 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:28:53,602 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **make** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38496 
+2020-11-06 22:28:53,602 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 2
+2020-11-06 22:28:53,631 test [DEBUG] [../../include/MyTask.h:process:69] get result of make from index
+2020-11-06 22:28:53,632 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:28:53,633 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
+2020-11-06 22:28:54,710 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 8
+2020-11-06 22:28:54,710 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:499] new massage ,fd = 8
+2020-11-06 22:28:54,710 test [DEBUG] [../../include/tcpServer_v4.h:handleMassage:546] fd = 8
+2020-11-06 22:28:54,750 test [DEBUG] [../../include/MyTask.h:onMassage:175] id: 1 massage: **make** , fd= 8,connection : local 127.0.0.1 5555   peer 127.0.0.1 38496 
+2020-11-06 22:28:54,750 test [DEBUG] [../../include/MyTask.h:process:31] threadName: 1
+2020-11-06 22:28:54,777 test [DEBUG] [../../include/MyTask.h:process:69] get result of make from index
+2020-11-06 22:28:54,778 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:486] epoll_wait active, cur_fd = 6
+2020-11-06 22:28:54,778 test [DEBUG] [../../include/tcpServer_v4.h:singleEpollWait:489] eventfd active,fd = 6
